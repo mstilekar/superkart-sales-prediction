@@ -44,7 +44,7 @@ product_data = {
 if st.button("Predict", type='primary'):
     try:
         response = requests.post(
-            "https://congenial-zebra-w44jvgvqxgc574x-7860.app.github.dev//v1/predict",
+            "https://congenial-zebra-w44jvgvqxgc574x-7860.app.github.dev/v1/predict",
             json=product_data
         )
         if response.status_code == 200:
