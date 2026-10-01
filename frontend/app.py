@@ -5,7 +5,7 @@ import requests
 import numpy as np
 
 # Add Logo
-st.image("{drive_path}/suparkart_logo.jpg", width=400)
+st.image("suparkart_logo.jpg", width=400)
 
 # App Title
 st.title("🛒 SuperKart Sales Forecasting App")
