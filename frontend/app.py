@@ -8,7 +8,7 @@ import numpy as np
 st.image("suparkart_logo.jpg", width=400)
 
 # App Title
-st.title("🛒 SuperKart Sales Forecasting App")
+st.title("##SuperKart Sales Forecasting App##")
 
 # Instructions
 st.markdown("Enter product and store attributes to forecast **monthly product sales revenue**.\n\n_All sales are reported in ($) USD._")
