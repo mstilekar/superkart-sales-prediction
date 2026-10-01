@@ -12,7 +12,7 @@ docker run -d -p 7860:7860 --name superkart-container superkart-backend
 /workspaces/superkart-sales-prediction => docker build -t superkart-frontend ./frontend
 
 # how to run the frontend docker file
-docker run -d -p 7860:7860 --name superkart-frontend-container superkart-frontend
+docker run -d -p 7861:7861 --name superkart-frontend-container superkart-frontend
 
 # how to stop and remove  the container
 docker stop superkart-container
