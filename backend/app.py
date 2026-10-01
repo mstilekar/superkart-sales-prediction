@@ -10,7 +10,7 @@ superkart_api = Flask("superkart_sales_api")
 CORS(superkart_api)
 
 # Load the trained model pipeline (preprocessing + model)
-model = joblib.load("/content/drive/MyDrive/Mahesh-USA/PGP-AIML/SuperKart/backend_files/superkart_model.joblib")
+model = joblib.load("superkart_model.joblib")
 
 # Health check route
 @superkart_api.get('/')
